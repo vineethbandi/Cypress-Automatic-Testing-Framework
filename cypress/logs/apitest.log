@@ -1125,3 +1125,76 @@ Validated products for getproduct call
 }
 [2023-09-14T15:13:11.846Z] Validated login with correct email & password
 [2023-09-14T15:13:11.888Z] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydW5vQGVtYWlsLmNvbSIsInBhc3N3b3JkIjoiYnJ1bm8iLCJpYXQiOjE2OTQ3MDQzOTMsImV4cCI6MTY5NDcwNzk5M30.5S3JZXCYMohvsELZVeHMzsc8XvVQiRM7ZMTnFn1Z1Ik
+[2025-02-11T22:02:20.606Z] 
+Validated products for getproduct call
+
+[2025-02-11T22:02:20.622Z] Response Body:
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy A23 Blue",
+    "cost": 18999,
+    "quantity": 100,
+    "locationId": 1,
+    "DealerId": 1
+  },
+  {
+    "id": 2,
+    "name": "Redmi 11 Prime 5G",
+    "cost": 13249,
+    "quantity": 2000,
+    "locationId": 2,
+    "DealerId": 2
+  },
+  {
+    "id": 3,
+    "name": "OnePlus Nord CE 3 Lite 5G",
+    "cost": 19999,
+    "quantity": 3000,
+    "locationId": 3,
+    "DealerId": 3
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy M33 5G ",
+    "cost": 17999,
+    "quantity": 4000,
+    "locationId": 2,
+    "DealerId": 3
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy Flip 5G ",
+    "cost": 70000,
+    "quantity": 1000,
+    "locationId": 2,
+    "DealerId": 3
+  },
+  {
+    "name": "Samsung Galaxy S23 Blue",
+    "cost": 120000,
+    "quantity": 100,
+    "locationId": 3,
+    "DealerId": 1,
+    "id": 6
+  },
+  {
+    "name": "Apple iphone 12pro ",
+    "cost": "67000",
+    "locationId": "2",
+    "dealerId": "1",
+    "quantity": "100",
+    "id": 8
+  }
+]
+[2025-02-11T22:02:23.897Z] Validate user is able to create new products -- Test Passed
+[2025-02-11T22:02:23.904Z] {
+  "name": "Handmade Wooden Chair",
+  "cost": 82771,
+  "quantity": 330,
+  "locationId": 3,
+  "DealerId": 4,
+  "id": 9
+}
+[2025-02-11T22:02:31.063Z] Validate user is able to delete products -- Test Passed
+[2025-02-11T22:02:31.070Z] {}
